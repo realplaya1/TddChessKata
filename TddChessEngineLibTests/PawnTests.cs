@@ -13,7 +13,7 @@ namespace TddChessEngineLibTests
             string finalPosition = "E4";
             FigureColor figureColor = FigureColor.White;
 
-            Pawn pawn = new Pawn(startPosition);
+            Pawn pawn = new Pawn(startPosition, figureColor);
 
             pawn.Turn(startPosition, finalPosition, figureColor);
 
