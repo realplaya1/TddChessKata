@@ -17,7 +17,7 @@ namespace TddChessEngineLibTests
 
             pawn.Turn(startPosition, finalPosition, figureColor);
 
-            Assert.Equal(finalPosition, pawn.CurrentPosition, figureColor);
+            Assert.Equal(finalPosition, pawn.CurrentPosition);
         }
     }
 }

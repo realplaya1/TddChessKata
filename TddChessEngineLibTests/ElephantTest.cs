@@ -23,7 +23,7 @@ namespace TddChessEngineLibTests
 
              Elephant elephant = new Elephant(initPos);
 
-            Assert.Throws<Exception>(initPos, elephant.currentPosition);
+            Assert.Throws<Exception>(()=> new Elephant(initPos));
         }
     }
 }
